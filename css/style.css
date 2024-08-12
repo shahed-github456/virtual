@@ -1,0 +1,1384 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+img{
+    vertical-align: middle;
+}
+/* common css end */
+/* bg design css start */
+    .ellips .ellips1 img{
+        position: absolute;
+        z-index: 0;
+        margin-left: 140px;
+        height: 400px;
+        width: 1100px;
+        background: transparent;
+    }
+    .ellips .ellips2{
+        display: flex;
+        position: absolute;
+        right: 0;
+        background: transparent;
+    }
+    .ellips .ellips2 img{
+        position: relative;
+        background-color: transparent;
+        height: 1200px;
+        width: 600px;
+        margin-top: 210px;
+    }
+    .ellips .ellips3 img{
+        position: absolute;
+        z-index: 0;
+        margin-top: 3;
+        height: 1000px;
+        width: 600px;
+        background: transparent;
+    }
+    .ellips .ellips4 img{
+        position: absolute;
+        z-index: 0;
+        margin-top: 1850px;
+        height: 1200px;
+        width: 900px;
+        background: transparent;
+    }
+    
+
+/* bg design css end */
+/* nav css start */
+.nav-main{
+    display: flex;
+    background: transparent;
+    justify-content: space-between;
+}
+.logo{
+    margin-top: 24px;
+    z-index: 0;
+    background-color: transparent;
+    margin-left: 220px;
+}
+.logo p::first-letter{
+    font-size: 50px;
+}
+.logo p{
+    font-size: 26.35px;
+    font-weight: 400;
+    font-family: "IM Fell Great Primer SC", serif;
+    background-color: transparent;
+}
+.navbar{
+    display: flex;
+    margin-top: 50px;
+    position: relative;
+    background: transparent;
+    gap: 80px;
+}
+.navbar .active a{
+    color: #AA14F0;
+}
+.navbar li a{
+    color: white;
+    background-color: transparent;
+    font-size: 18px;
+}
+.navbar li{
+    background-color: transparent;
+    position: relative;
+}
+.navbar li::after{
+    content: '';
+    position: absolute;
+    background-color: white;
+    left: 0;
+    bottom: 10px;
+    height: 3px;
+    width: 0;
+    transition: 0.4s;
+}
+.navbar li:hover::after{
+    width: 100%;
+}
+.nav-main .btn button{
+    background: linear-gradient(#AA14F0, #C54B8C);
+    padding: 18px 35px;
+    margin-top: 50px;
+    margin-right: 220px;
+    border: none;
+    border-radius: 10px;
+}
+#icon{
+    font-size: 30px;
+    cursor: pointer;
+    background-color: transparent;
+    display: none;
+    position: relative;
+    top: 15px;
+    right: 15px;
+}
+/* nav css part end */
+
+/* banner css start */
+
+.banner-item{
+    display: flex;
+    justify-content: space-between;
+    background: transparent;
+}
+.banner-text{
+    position: relative;
+    top: 100px;
+    left: 220px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.banner-text p:nth-child(1){
+    font-family: "Orbitron";
+    font-size: 45px;
+    background: transparent;
+}
+.banner-text p:nth-child(2){
+    font-family: "inter";
+    font-weight: 400;
+    font-size: 20px;
+    opacity: 1.1;
+    background: transparent;
+}
+.banner-text .btn{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.banner-text .btn button{
+    background: transparent;
+    border: none;
+}
+.banner-text .btn button:nth-child(1) a{
+    font-size: 20px;
+    border: 2px solid transparent;
+    padding: 10px 24px;
+    background:linear-gradient(#BC3CD8,#C54B8C);
+    border-radius: 3.34px;
+}
+.banner-text .btn button:nth-child(1) a:hover{
+    border: 2px solid #BC3CD8;
+    background: black;
+    transition: 0.5s;
+}
+.banner-text .btn button:nth-child(2) a{
+    font-size: 20px;
+    border: 2px solid transparent;
+    padding: 10px 24px;
+    background-color: transparent;
+    border-radius: 3.34px;
+}
+.banner-text .btn button:nth-child(2) a:hover{
+    border: 2px solid #BC3CD8;
+    background: black;
+    transition: 0.5s;
+}
+.banner-text .info{
+    display: flex;
+    gap: 15px;
+    position: relative;
+    top: 30px;
+    background: transparent;
+}
+.banner-text .info p{
+    position: relative;
+    top: 3px;
+}
+.banner-img{
+    position: relative;
+    right: 140px;
+    top: 50px;
+    background: transparent;
+}
+.banner-img img{
+    width: 500px;
+    height: 550px;
+    background: transparent;
+}
+/* banner part css end */
+/* exprince part css start */
+.exprince-main{
+    display: flex;
+    justify-content: space-between;
+}
+.exprince-image{
+    display: flex;
+    gap: 50px;
+    position: relative;
+    top: 160px;
+    left: 220px;
+}
+.exprince-image img:nth-child(1){
+    height: 310px;
+    width: 270px;
+    background: transparent;
+}
+.exprince-image img:nth-child(2){
+    height: 310px;
+    width: 290px;
+    background: transparent;
+    margin-top: 90px;
+}
+.exprince-text{
+    position: relative;
+    top: 250px;
+    right: 220px;
+    background: transparent;
+}
+.exprince-text p:nth-child(1){
+    font-size: 45px;
+    font-family:"Orbitron";
+    background: transparent;
+}
+.exprince-text p:nth-child(2){
+    margin-top: 35px;
+    font-size: 18px;
+    font-family: "Inter";
+    font-weight: 400;
+    opacity: 0.9;
+    background: transparent;
+}
+.exprince-text button a{
+    background-color: transparent;
+    border: none;
+}
+.exprince-text button{
+    margin-top: 35px;
+    font-size: 20px;
+    font-family: "Inter";
+    padding: 10px 24px;
+    background: linear-gradient(#BC3CD8,#C54B8C);
+    border-radius: 4px;
+    border: 2px solid transparent;
+}
+.exprince-text button:hover{
+    border: 2px solid #BC3CD8;
+    background: black;
+    border-radius: 4px;
+    transition: 0.5s;
+}
+/* exprince css end */
+/* headset css start */
+#headset{
+    margin-top: 310px;
+}
+.upper-box{
+    position: relative;
+    height: 160px;
+    width: 1400px;
+    background-color: #534686;
+    z-index: 1;
+    display: flex;
+    gap: 480px;
+    margin: auto;
+}
+.upper-box:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-top: 80px solid black;
+    border-left: 80px solid transparent;
+    width: 0;
+}
+.upper-box i{
+    font-size: 40px;
+    background-color: transparent;
+    font-family: "Orbitron";
+    position: relative;
+    padding: 25px;
+}
+.upper-box .headset-video{
+    margin-top: 20px;
+}
+.upper-box .headset-video img{
+    background-color: transparent;
+    position: absolute;
+    z-index: 2;
+    width: 140px;
+    height: 100px;
+}
+/* upper-box part end */
+/* virtual reality part start */
+.reality{
+    display: flex;
+    justify-content: center;
+    gap: 400px;
+}
+.headset-header{
+    padding: 80px 0px 50px  250px;
+}
+.headset-header p{
+    font-size: 40px;
+    font-family: "Orbitron";
+}
+.frist-coloumn{
+    display: flex;
+    flex-direction: column;
+}
+.secound-coloumn{
+    display: flex;
+    flex-direction: column ;
+}
+.vr-box1{
+    width: 510px;
+    height: 310px;
+}
+.vr-box1 .img{
+    background: url(/image/vr-image1.png) no-repeat center / cover;
+    width: 100%;
+    height: 310px;
+    position: relative;
+    border-radius: 10px;
+    border: 2px solid #E4E5E73B;
+}
+.vr-box1 .img .hover{
+    position: absolute;
+    background-color: transparent;
+    border: 2px solid transparent;
+    backdrop-filter: blur(15px) ;
+    bottom: 0;
+    transform: scale(0);
+}
+.vr-box1 .img:hover .hover{
+    transform: scale(1);
+    transition: 1s;
+}
+.vr-box1 .img .hover p:nth-child(1) u{
+    background-color: transparent;
+    font-family: "Orbitron";
+}
+.vr-box1 .img .hover p:nth-child(1){
+    background-color: transparent;
+    font-size: 18px;
+}
+.vr-box1 .img .hover p:nth-child(2){
+    font-size: 15px;
+    font-family: "Inter";
+    font-weight: 400;
+    background-color: transparent;
+}
+.vr-box2{
+    width: 510px;
+    height: 310px;
+    margin-top: 70px;
+}
+.vr-box2 .img{
+    background: url(/image/vr-image2.png) no-repeat center / cover;
+    width: 100%;
+    height: 310px;
+    position: relative;
+    border-radius: 10px;
+    border: 2px solid #E4E5E73B;
+}
+.vr-box2 .img .hover{
+    position: absolute;
+    background-color: transparent;
+    border: 2px solid transparent;
+    backdrop-filter: blur(15px) ;
+    bottom: 0;
+    transform: scale(0);
+}
+.vr-box2 .img:hover .hover{
+    transform: scale(1);
+    transition: 1s;
+}
+.vr-box2 .img .hover p:nth-child(1) u{
+    background-color: transparent;
+    font-family: "Orbitron";
+}
+.vr-box2 .img .hover p:nth-child(1){
+    background-color: transparent;
+    font-size: 18px;
+}
+.vr-box2 .img .hover p:nth-child(2){
+    font-size: 15px;
+    font-family: "Inter";
+    font-weight: 400;
+    background-color: transparent;
+}
+.vr-box3{
+    width: 510px;
+    height: 310px;
+    
+}
+.vr-box3 .img{
+    background: url(/image/vr-image3.png) no-repeat center / cover;
+    width: 100%;
+    height: 310px;
+    position: relative;
+    border-radius: 10px;
+    border: 2px solid #E4E5E73B;
+}
+.vr-box3 .img .hover{
+    position: absolute;
+    background-color: transparent;
+    border: 2px solid transparent;
+    backdrop-filter: blur(15px) ;
+    bottom: 0;
+    transform: scale(0);
+}
+.vr-box3 .img:hover .hover{
+    transform: scale(1);
+    transition: 1s;
+}
+.vr-box3 .img .hover p:nth-child(1) u{
+    background-color: transparent;
+    font-family: "Orbitron";
+}
+.vr-box3 .img .hover p:nth-child(1){
+    background-color: transparent;
+    font-size: 18px;
+}
+.vr-box3 .img .hover p:nth-child(2){
+    font-size: 15px;
+    font-family: "Inter";
+    font-weight: 400;
+    background-color: transparent;
+}
+.vr-box4{
+    width: 510px;
+    height: 310px;
+    margin-top: 70px;
+}
+.vr-box4 .img{
+    background: url(/image/vr-image4.png) no-repeat center / cover;
+    width: 100%;
+    height: 310px;
+    position: relative;
+    border-radius: 10px;
+    border: 2px solid #E4E5E73B;
+}
+.vr-box4 .img .hover{
+    position: absolute;
+    background-color: transparent;
+    border: 2px solid transparent;
+    backdrop-filter: blur(15px) ;
+    bottom: 0;
+    transform: scale(0);
+}
+.vr-box4 .img:hover .hover{
+    transform: scale(1);
+    transition: 1s;
+}
+.vr-box4 .img .hover p:nth-child(1) u{
+    background-color: transparent;
+    font-family: "Orbitron";
+}
+.vr-box4 .img .hover p:nth-child(1){
+    background-color: transparent;
+    font-size: 18px;
+}
+.vr-box4 .img .hover p:nth-child(2){
+    font-size: 15px;
+    font-family: "Inter";
+    font-weight: 400;
+    background-color: transparent;
+}
+/* headset css end */
+/* client css start */
+    #clients{
+        position: relative;
+        margin-top: 100px;
+        background: transparent;
+    }
+    .clients-items{
+        height: 280px;
+        width: 1450px;
+        background: linear-gradient(180deg, #AA14F0 -42.59%, rgba(0, 0, 0, 0) -42.59%, #AA14F0 -42.58%, rgba(170, 20, 240, 0.18) 4.35%, rgba(151, 60, 68, 0.055) 99.99%, rgba(185, 54, 245, 0) 100%)
+        ;
+        border: 2px solid #c209eb3f;
+        margin: auto;
+        z-index: 101;
+        border-radius: 10px;
+    }
+    .clients-text{
+        height: 250px;
+        background-color: transparent;
+        border: 2px solid transparent;
+        backdrop-filter: blur(1px);
+        width: 1450px;
+        z-index: 1;
+        
+    }
+    .clients-text p{
+        background-color: transparent;
+        text-align: center;
+        font-size: 15px;
+        position: relative;
+        top: 40px;
+        font-family: "Inter";
+        font-weight: 400;
+    }
+    .clients-text h2{
+        background-color: transparent;
+        font-size: 40px;
+        text-align: center;
+        position: relative;
+        top: 15px;
+        font-family: "Orbitron";
+        font-weight: 700;
+    }
+    .clients-box{
+        display: flex;
+        gap: 165px;
+        z-index: 102;
+        height:180px ;
+        width: 1380px;
+        background: transparent;
+        margin: auto;
+        position: relative;
+        top: -100px;
+    }
+    .clients-box .box1 h1{
+        background: transparent;
+        display: flex;
+        font-size: 15px;
+    }
+    .clients-box .box1 h1 p:nth-child(1){
+        color: #F7B603;
+        background: transparent;
+    }
+    .clients-box .box1 h1 p:nth-child(2){
+        color: #F7B603;
+        background: transparent;
+    }
+    .clients-box .box1 p{
+        font-family: "Inter";
+        font-size: 14px;
+        font-weight: 400;
+        background: transparent;
+    }
+    .clients-box .box1 .profile-details{
+        display: flex;
+        flex-direction:column ;
+        gap: 5px;
+        background: transparent;
+    }
+    .clients-box .box1 .profile-details a{
+        color: #EB4468;
+    }
+    .box1-profile{
+        display: flex;
+        gap: 15px;
+        background: transparent;
+    }
+    .box1-profile .profile-pic{
+        background: url(/image/box-profile1.png) no-repeat center / cover;
+        height: 30px;
+        width: 30px;
+        background-color: transparent;
+        position: relative;
+        top: 5px;
+    }
+    .clients-box .box-background{
+        height: 140px;
+        width: 330px;
+        background:linear-gradient(77.91deg, rgba(185, 54, 245, 0.1375) 1.95%, rgba(185, 54, 245, 0.11) 1.95%, rgba(170, 20, 240, 0.0825) 108.82%);
+    }
+    .clients-box .box1{
+        height: 140px;
+        width: 330px;
+        background: transparent;
+        border: 2px solid #aa14f059;
+        backdrop-filter: blur(15px);
+        padding: 15px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .clients-box .box2 h1{
+        background: transparent;
+        display: flex;
+        font-size: 15px;
+    }
+    .clients-box .box2 h1 p:nth-child(1){
+        color: #F7B603;
+        background: transparent;
+    }
+    .clients-box .box2 h1 p:nth-child(2){
+        color: #F7B603;
+        background: transparent;
+    }
+    .clients-box .box2 p{
+        font-family: "Inter";
+        font-size: 14px;
+        font-weight: 400;
+        background: transparent;
+    }
+    .clients-box .box2 .profile-details{
+        display: flex;
+        flex-direction:column ;
+        gap: 3px;
+        background: transparent;
+    }
+    .clients-box .box2 .profile-details a{
+        color: #EB4468;
+    }
+    .box2-profile{
+        display: flex;
+        gap: 15px;
+        background: transparent;
+    }
+    .box2-profile .profile-pic{
+        background: url(/image/box-profile2.png) no-repeat center / cover;
+        height: 30px;
+        width: 30px;
+        background-color: transparent;
+        position: relative;
+        top: 5px;
+    }
+    .clients-box .box-background{
+        height: 140px;
+        width: 330px;
+        background:linear-gradient(77.91deg, rgba(185, 54, 245, 0.1375) 1.95%, rgba(185, 54, 245, 0.11) 1.95%, rgba(170, 20, 240, 0.0825) 108.82%);
+    }
+    .clients-box .box2{
+        height: 140px;
+        width: 330px;
+        background: transparent;
+        border: 2px solid #aa14f042;
+        backdrop-filter: blur(10px);
+        padding: 15px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .clients-box .box3 h1{
+        background: transparent;
+        display: flex;
+        font-size: 15px;
+    }
+    .clients-box .box3 h1 p:nth-child(1){
+        color: #F7B603;
+        background: transparent;
+    }
+    .clients-box .box3 h1 p:nth-child(2){
+        color: #F7B603;
+        background: transparent;
+    }
+    .clients-box .box3 p{
+        font-family: "Inter";
+        font-size: 14px;
+        font-weight: 400;
+        background: transparent;
+    }
+    .clients-box .box3 .profile-details{
+        display: flex;
+        flex-direction:column ;
+        gap: 5px;
+        background: transparent;
+    }
+    .clients-box .box3 .profile-details a{
+        color: #EB4468;
+    }
+    .box3-profile{
+        display: flex;
+        gap: 15px;
+        background: transparent;
+    }
+    .box3-profile .profile-pic{
+        background: url(/image/box-profile3.png) no-repeat center / cover;
+        height: 30px;
+        width: 30px;
+        background-color: transparent;
+        position: relative;
+        top: 5px;
+    }
+    .clients-box .box-background{
+        height: 140px;
+        width: 330px;
+        background:linear-gradient(77.91deg, rgba(185, 54, 245, 0.1375) 1.95%, rgba(185, 54, 245, 0.11) 1.95%, rgba(170, 20, 240, 0.0825) 108.82%);
+    }
+    .clients-box .box3{
+        height: 140px;
+        width: 330px;
+        background: transparent;
+        border: 2px solid #aa14f042;
+        backdrop-filter: blur(10px);
+        padding: 15px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    /* client part css end */
+    /* company css part start */
+    .company-main{
+        display: flex;
+        justify-content: center;
+        gap: 350px;
+        background: transparent;
+    }
+    .company-text{
+        position: relative;
+        top: 48px;
+        right: 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        background-color: transparent;
+    }
+    .company-text h1{
+        font-size: 40px;
+        font-family: "Orbitron";
+        font-weight: 700;
+        background-color: transparent;
+    }
+    .company-text h1 span{
+        color: #AA14F0;
+        font-size: 30px;
+        background: transparent;
+    }
+    .company-text p{
+        font-size: 24px;
+        font-family: "Inter";
+        font-weight: 400;
+        opacity: 0.8;
+        background-color: transparent;
+    }
+    .company-box{
+        display: flex;
+        gap: 80px;
+    }
+    .company-box .first-coloumn{
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+    }
+    .company-box .secound-coloumn{
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+    }
+    .company-box .box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .company-box .box img{
+        width: 70px;
+        height: 70px;
+        object-fit: contain;
+    }
+    /* company part css end */
+    #product{
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+    }
+    .product-main{
+        width: 1500px;
+        height: 250px;
+        border: 2px solid #aa14f02c;
+        background: linear-gradient(180deg, #AA14F0 -42.59%, rgba(0, 0, 0, 0) -42.59%, #AA14F0 -42.58%, rgba(170, 20, 240, 0.18) 4.35%, rgba(151, 60, 68, 0.055) 99.99%, rgba(185, 54, 245, 0) 100%);
+        ;
+        display: flex;
+        justify-content: space-between;
+        border-radius: 10px;
+    }
+    .product-text{
+        background: transparent;
+        display: flex;
+        flex-direction: column;
+    }
+    .product-text h1{
+        background-color: transparent;
+        font-size: 40px;
+        font-family: "Orbitron";
+        margin-bottom: 10px;
+    }
+    .product-text h1 img{
+        background-color: transparent;
+        width: 30px;
+        height: 30px;
+        object-fit: contain;
+    }
+    .product-text p{
+        background-color: transparent;
+        font-size: 18px;
+        font-family: "Inter";
+        font-weight: 400;
+        opacity: 0.8;
+        margin-bottom: 10px;
+    }
+    .product-text .btn{
+        display: flex;
+        flex-direction: row;
+        gap: 45px;
+        background-color: transparent;
+    }
+    .product-text .btn input{
+        border: none;
+        font-size: 18px;
+        font-family:"Inter";
+        border-radius: 10px;
+        background : linear-gradient(180deg, #AA14F0 -42.59%, rgba(0, 0, 0, 0) -42.59%, #CB8DE8 -42.58%, rgba(203, 143, 232, 0.18) 4.35%, rgba(151, 60, 68, 0.055) 99.99%, rgba(199, 137, 228, 0) 100%);
+    }
+    .product-text .btn button{
+        border: 2px solid transparent;
+        border-radius: 5px;
+        padding: 10px 24px;
+        font-size: 20px;
+        background: linear-gradient(#AA14F0,#C54B8C) ;
+        display: flex;
+    }
+    .product-text .btn button:hover{
+        border: 2px solid #AA14F0;
+        background: transparent;
+        transition: 0.5s;
+
+    }
+    .product-text .btn button span{
+        background-color: transparent;
+        position: relative;
+        font-size: 18px;
+        top: 2px;
+    }
+    .hand-img{
+       background: url(/image/hand.png) no-repeat center / cover ; 
+       width: 500px;
+       height: 250px;
+       right: 0;
+    }
+    /* product css end  */
+    /* responsive css start*/
+    @media(max-width:1280px){
+        .ellips{
+            display: none;
+        }
+        .ellips .ellips1 img{
+            display: none;
+        }
+        .ellips .ellips2{
+            display: none;
+        }
+        .ellips3{
+            display: none;
+        }
+        .ellips4{
+            display: none;
+        }
+        .navs{
+            display: none;
+        }
+        #banner{
+            display: none;
+        }
+        #exprince{
+            display: none;
+        }
+        #headset{
+            display: none;
+        }
+        #virtual-reality{
+            display: none;
+        }
+        #clients{
+            display: none;
+        }
+        #company{
+            display: none;
+        }
+        #product{
+            display: none;
+        }
+    }
+    @media(max-width:1090px){
+        /* bg-design rs */
+        .ellips{
+            display: block;
+        }
+        .ellips .ellips1 img{
+            display: block;
+            margin-left: 2px;
+            height: 250px;
+            width: 350px;
+        }
+        .ellips .ellips2{
+            display: block;
+        }
+        
+        .ellips .ellips2 img{
+            margin-top: 160px;
+            height: 350px;
+            width: 250px;
+        }
+        .ellips3{
+            display: block;
+        }
+        .ellips .ellips3 img{
+            height: 350px;
+            width: 350px;
+            margin-top: 130px;
+        }
+        .ellips4{
+            display: block;
+        }
+        .ellips .ellips4 img{
+            margin-top: 700px;
+            height: 550px;
+            width: 550px;
+        }
+        /* bg-design end */
+        .navs{
+            display: block;
+        }
+        .nav-main{
+            gap: 0px;
+        }
+        .navbar.open{
+            right: 2%;
+        }
+        .logo{
+            margin-left: 25px;
+        }
+        .logo p::first-letter{
+            font-size: 32px;
+        }
+        .logo p{
+            font-size: 20px;
+        }
+        #icon{
+            display: block;
+        }
+        .nav-main .btn button{
+            display: none;
+        }
+        .navbar .active a{
+            color: white;
+        }
+        .navbar li::after{
+            bottom: -5px;
+        }
+        .navbar .open{
+            right: 2%;
+        }
+        .navbar{
+            position: absolute;
+            top: 10px;
+            right: -100%;
+            height: 100px;
+            width: 170px;
+            background: linear-gradient(#BC3CD8,#C54B8C);
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            gap: 10px;
+            border-radius: 10px;
+            align-items: center;
+            transition: all .50s ease;
+            z-index: 1002;
+        }
+        /* nav responsive end */
+        #banner{
+            display: block;
+        }
+        .banner-text{
+            top: 35px;
+            left: 15px;
+            gap: 10px;
+        }
+        .banner-text p:nth-child(1){
+            font-size: 18px;
+        }
+        .banner-text p:nth-child(2){
+            font-size:8px ;
+        }
+        .banner-text .btn{
+            gap: 5px;
+        }
+        .banner-text .btn button:nth-child(1) a{
+            font-size: 10px;
+            padding: 5px 12px;
+        }
+        .banner-text .btn button:nth-child(2) a{
+            font-size: 10px;
+            padding: 5px 12px;
+        }
+        .banner-text .info{
+            gap: 5px;
+            top: 15px;
+        }
+        .banner-text .info img{
+            height: 25px;
+            width: 70px;
+        }
+        .banner-text .info p{
+            font-size: 11px;
+        }
+        .banner-img{
+            right: 0;
+            top: 25px;
+        }
+        .banner-img img{
+            z-index: 1001;
+            width: 150px;
+            height: 190px;
+            background: transparent;
+        }
+        /* banner css end */
+        #exprince{
+            display: block;
+        }
+        .exprince-main{
+            margin-top: 30px;
+        }
+        .exprince-image{
+            gap: 10px;
+            top: 50px;
+            left: 0;
+            background-color: transparent;
+        }
+        .exprince-image img:nth-child(1){
+            height:90px ;
+            width: 80px;
+        }
+        .exprince-image img:nth-child(2){
+            height: 90px;
+            width: 80px;
+            margin-top: 40px;
+        }
+        .exprince-text{
+            top: 70px;
+            right: 10px
+        }
+        .exprince-text p:nth-child(1){
+            font-size: 16px;
+        }
+        .exprince-text p:nth-child(2){
+            margin-top: 8px;
+            font-size: 10px;
+        }
+        .exprince-text button{
+            margin-top: 10px;
+            padding: 5px 12px;
+            font-size: 10px;
+        }
+        /* upper box */
+        #headset{
+            display: block;
+            margin-top: 110px;
+        }
+        .upper-box{
+            height:50px ;
+            width: 350px;
+            gap: 30px;
+        }
+        .upper-box:before{
+            border-top: 50px solid black;
+            border-left: 50px solid transparent;
+        }
+        .upper-box i{
+            font-size: 11px;
+            padding: 10px;
+        }
+        .upper-box .headset-video{
+            margin-top: 5px;
+        }
+        .upper-box .headset-video img{
+            width: 80px;
+            height: 40px;
+        }
+        /* upper-box end */
+        #virtual-reality{
+            display: block;
+        }
+        .reality{
+            gap: 30px;
+        }
+        .headset-header{
+            padding: 20px 0px 20px 0px;
+        }
+        .headset-header p{
+            font-size: 18px;
+        }
+        .vr-box1{
+            width: 150px;
+            height: 150px;
+        }
+        .vr-box1 .img{
+            width: 100%;
+            height: 150px;
+        }
+        .vr-box1 .img .hover p:nth-child(1){
+            font-size: 14px;
+        }
+        .vr-box1 .img .hover p:nth-child(2){
+            font-size: 8px;
+        }
+        .vr-box2{
+            width: 150px;
+            height: 150px;
+            margin-top: 30px;
+        }
+        .vr-box2 .img{
+            width: 100%;
+            height: 150px;
+        }
+        .vr-box2 .img .hover p:nth-child(1){
+            font-size: 14px;
+        }
+        .vr-box2 .img .hover p:nth-child(2){
+            font-size: 8px;
+        }
+        .vr-box3{
+            width: 150px;
+            height: 150px;
+        }
+        .vr-box3 .img{
+            width: 100%;
+            height: 150px;
+        }
+        .vr-box3 .img .hover p:nth-child(1){
+            font-size: 14px;
+        }
+        .vr-box3 .img .hover p:nth-child(2){
+            font-size: 8px;
+        }
+        .vr-box4{
+            width: 150px;
+            height: 150px;
+            margin-top: 30px;
+        }
+        .vr-box4 .img{
+            width: 100%;
+            height: 150px;
+        }
+        .vr-box4 .img .hover p:nth-child(1){
+            font-size: 14px;
+        }
+        .vr-box4 .img .hover p:nth-child(2){
+            font-size: 8px;
+        }
+        /* reality end */
+        #clients{
+            margin-top: 25px;
+            display: block;
+        }
+        .clients-items{
+            height:100px ;
+            width: 350px;
+        }
+        .clients-text{
+            font-size: 8px;
+            top: 15px;
+            height: 50px;
+            width: 350px;
+        }
+        .clients-text p{
+            font-size: 8px;
+            top: 10px;
+        }
+        .clients-text h2{
+            font-size: 10px;
+            top: 5px;
+        }
+        .clients-box .box-background{
+            height: 100px;
+            width: 90px;
+        }
+        .clients-box{
+            gap: 23px;
+            height: 50px;
+            width: 400px;
+            top: -50px;
+            left: 12px;
+        }
+        .clients-box .box1 h1{
+            font-size: 8px;
+        }
+        .clients-box .box1 p{
+            font-size: 8px;
+        }
+        .clients-box .box1 .profile-details{
+            gap: 2px;
+        }
+        .clients-box .box1 .profile-details p{
+            font-size: 7px;
+        }
+        .clients-box .box1 .profile-details a{
+            font-size: 8px;
+        }
+        .box1-profile{
+            gap: 8px;
+        }
+        .box1-profile .profile-pic{
+            width: 20px;
+            height: 20px;
+            top: 2px;
+        }
+        .clients-box .box1{
+            height: 100px;
+            width: 90px;
+            gap: 3px;
+            padding: 7px;
+        }
+        .clients-box .box2 h1{
+            font-size: 8px;
+        }
+        .clients-box .box2 p{
+            font-size: 8px;
+        }
+        .clients-box .box2 .profile-details{
+            gap: 2px;
+        }
+        .clients-box .box2 .profile-details p{
+            font-size: 8px;
+        }
+        .clients-box .box2 .profile-details a{
+            font-size: 8px;
+        }
+        .box2-profile{
+            gap: 8px;
+        }
+        .box2-profile .profile-pic{
+            width: 20px;
+            height: 20px;
+            top: 2px;
+        }
+        .clients-box .box2{
+            height: 100px;
+            width: 90px;
+            gap: 3px;
+            padding: 7px;
+        }
+        .clients-box .box3 h1{
+            font-size: 8px;
+        }
+        .clients-box .box3 p{
+            font-size: 8px;
+        }
+        .clients-box .box3 .profile-details{
+            gap: 2px;
+        }
+        .clients-box .box3 .profile-details p{
+            font-size: 8px;
+        }
+        .clients-box .box3 .profile-details a{
+            font-size: 8px;
+        }
+        .box3-profile{
+            gap: 8px;
+            margin: 15px 0px 0px 0px ;
+        }
+        .box3-profile .profile-pic{
+            width: 20px;
+            height: 20px;
+            top: 2px;
+        }
+        .clients-box .box3{
+            height: 100px;
+            width: 90px;
+            gap: 3px;
+            padding: 7px;
+        }
+        /* clients end */
+        #company{
+            display: block;
+            position: relative;
+            top: 50px;
+        }
+        .company-main{
+            gap: 50px;
+        }
+        .company-text{
+            top: 20px;
+            gap: 10px;
+            left: 10px;
+            background-color: transparent;
+        }
+        .company-text h1{
+            font-size: 18px;
+        }
+        .company-text h1 span{
+            font-size: 13px;
+        }
+        .company-text p{
+            font-size: 10px;
+        }
+        .company-box{
+            gap: 30px;
+        }
+        .company-box p{
+            font-size: 12px;
+        }
+        .company-box .first-coloumn{
+            gap: 30px;
+        }
+        .company-box .secound-coloumn{
+            gap: 30px;
+        }
+        .company-box .box img{
+            width: 30px;
+            height: 30px;
+            object-fit: contain;
+        }
+        /* company end */
+        #product{
+            display: block;
+            margin-top: 55px;
+        }
+        .product-main{
+            width: 350px;
+            height: 120px;
+            margin: auto;
+            border: 2px solid #aa14f07c;
+        }
+        .product-text h1{
+            font-size: 16px;
+            margin-bottom: 12px;
+        }
+        .product-text h1 img{
+            width: 10px;
+            height: 10px;
+        }
+        .product-text p{
+            font-size: 8px;
+        }
+        .product-text .btn{
+            gap: 10px;
+        }
+        .product-text .btn p{
+            font-size: 10px;
+        }
+        .product-text .btn input{
+            font-size: 8px;
+        }
+        .product-text .btn input::placeholder{
+            font-size: 15px;
+            font-family: 'Inter';
+            text-align: center;
+        }
+        .product-text .btn button{
+            padding: 5px 12px;
+        }
+        .product-text .btn button span{
+            font-size: 10px;
+        }
+        .hand-img{
+            width: 200px;
+            height: 120px;
+            opacity: 81%;
+        }
+    }
+
